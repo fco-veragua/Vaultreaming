@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.vaultreaming"
+    name="Vaultreaming"
+    version="0.1.0"
+    provider-name="TuNombre">
+    <extension point="xbmc.python.plugin"
+        library="default.py" />
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon para ver contenido en streaming</summary>
+        <description>Vaultreaming permite acceder y ver películas y series desde diversas fuentes
+            online.
+        </description>
+        <platform>all</platform>
+        <language>es</language>
+    </extension>
+</addon>
